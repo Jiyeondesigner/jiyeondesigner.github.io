@@ -9,13 +9,13 @@ body {
   font-family: sans-serif;
   color: #dad571;
   width: 1440px;
-  height: 1500px;
+  height: 1300px;
   scroll-behavior: smooth;
 }
 
 h2 {
-  font-size: 70px;
-  text-align: center;
+  font-size: 20px;
+  text-align: left;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-weight: 100;
@@ -24,16 +24,11 @@ h2 {
 video {
   display: inline-block;
   position: relative;
-  right: -220px;
+  right: 40px;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
   height: auto;
   max-width: 100%;
-}
-
-@media only screen and (max-width: 768px) {
-  padding: 10px;
-
-  /* Mobile-specific styles go here */
+  width: 1000px;
 }
 
 /* Responsive adjustments for smaller screens */
@@ -67,11 +62,11 @@ video {
   text-decoration: none; /* Remove underline */
   display: inline-block; /* Inline element */
   border-radius: 70px; /* Make the button round */
-  width: auto; /* Fixed width */
+  width: 190px; /* Fixed width */
   height: auto; /* Fixed height */
-  position: absolute;
-  bottom: -330px; /* Adjust to control vertical position */
-  right: 600px; /* Adjust to control horizontal position */
+  position: fixed;
+  bottom: 70px; /* Adjust to control vertical position */
+  right: 160px; /* Adjust to control horizontal position */
   cursor: pointer;
   z-index: 1000; /* Ensures it stays above other elements */
   transition: transform 0.2s ease, background-color 0.2s ease; /* Smooth transition for hover */

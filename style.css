@@ -50,11 +50,11 @@ button {
   text-decoration: none; /* Remove underline */
   display: inline-block; /* Inline element */
   border-radius: 70px; /* Make the button round */
-  width: 700px; /* Fixed width */
+  width: 800px; /* Fixed width */
   height: auto;
   position: absolute;
   bottom: 20px; /* Adjust to control vertical position */
-  right: 450px; /* Adjust to control horizontal position */
+  right: 400px; /* Adjust to control horizontal position */
   z-index: 1000; /* Ensures it stays above other elements */
   cursor: pointer;
 }
@@ -76,12 +76,6 @@ button {
     bottom: 10px; /* Further adjustments for very small screens */
     right: 10px;
   }
-}
-
-@media only screen and (max-width: 768px) {
-  padding: 10px;
-
-  /* Mobile-specific styles go here */
 }
 
 .button-Link {
