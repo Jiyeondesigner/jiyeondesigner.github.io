@@ -9,7 +9,7 @@ body {
   font-family: sans-serif;
   color: #dad571;
   width: 1440px;
-  height: 1200px;
+  height: 1500px;
   scroll-behavior: smooth;
 }
 
@@ -26,6 +26,7 @@ video {
   position: relative;
   right: -220px;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+  height: auto;
 }
 
 .link {
@@ -43,7 +44,7 @@ video {
   width: auto; /* Fixed width */
   height: auto; /* Fixed height */
   position: absolute;
-  bottom: -370px; /* Adjust to control vertical position */
+  bottom: -330px; /* Adjust to control vertical position */
   right: 600px; /* Adjust to control horizontal position */
   cursor: pointer;
   z-index: 1000; /* Ensures it stays above other elements */
