@@ -30,7 +30,6 @@
   white-space: normal; /* Prevent text wrapping */
   overflow: hidden;
   margin-bottom: 50px;
-  cursor: pointer; /* change the cursor when hovering over an element */
   position: relative;
   left: -10px; /* move the entire element visually to the left */
   display: inline-block;
@@ -57,6 +56,7 @@ button {
   bottom: 20px; /* Adjust to control vertical position */
   right: 450px; /* Adjust to control horizontal position */
   z-index: 1000; /* Ensures it stays above other elements */
+  cursor: pointer;
 }
 
 /* Responsive adjustments for smaller screens */
@@ -78,6 +78,12 @@ button {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  padding: 10px;
+
+  /* Mobile-specific styles go here */
+}
+
 .button-Link {
   padding: 30px;
   text-align: center;
@@ -93,4 +99,5 @@ button {
 
 .button-Link:hover {
   transform: scale(1.1); /* Button will grow 10% larger */
+  cursor: pointer;
 }
