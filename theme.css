@@ -15,7 +15,7 @@ body {
 
 h2 {
   font-size: 20px;
-  text-align: center;
+  text-align: left;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-weight: 100;
@@ -27,7 +27,7 @@ video {
   right: 700px;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
   height: auto;
-  width: 700px;
+  width: 900px;
 }
 
 /* Responsive adjustments for smaller screens */
@@ -64,8 +64,8 @@ video {
   width: 190px; /* Fixed width */
   height: auto; /* Fixed height */
   position: fixed;
-  bottom: 70px; /* Adjust to control vertical position */
-  right: 160px; /* Adjust to control horizontal position */
+  bottom: 130px; /* Adjust to control vertical position */
+  right: 170px; /* Adjust to control horizontal position */
   cursor: pointer;
   z-index: 1000; /* Ensures it stays above other elements */
   transition: transform 0.2s ease, background-color 0.2s ease; /* Smooth transition for hover */
