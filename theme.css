@@ -15,7 +15,7 @@ body {
 
 h2 {
   font-size: 20px;
-  text-align: left;
+  text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-weight: 100;
@@ -24,10 +24,10 @@ h2 {
 video {
   display: inline-block;
   position: fixed;
-  right: 600px;
+  right: 700px;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
   height: auto;
-  width: 1000px;
+  width: 700px;
 }
 
 /* Responsive adjustments for smaller screens */
