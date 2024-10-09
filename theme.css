@@ -25,9 +25,10 @@ video {
   display: inline-block;
   position: fixed;
   right: 700px;
+  bottom: 110px;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
-  height: auto;
   width: 900px;
+  height: auto;
 }
 
 /* Responsive adjustments for smaller screens */
@@ -64,8 +65,8 @@ video {
   width: 190px; /* Fixed width */
   height: auto; /* Fixed height */
   position: fixed;
-  bottom: 130px; /* Adjust to control vertical position */
-  right: 170px; /* Adjust to control horizontal position */
+  bottom: 100px; /* Adjust to control vertical position */
+  right: 180px; /* Adjust to control horizontal position */
   cursor: pointer;
   z-index: 1000; /* Ensures it stays above other elements */
   transition: transform 0.2s ease, background-color 0.2s ease; /* Smooth transition for hover */
