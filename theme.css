@@ -1,0 +1,77 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #d26684;
+  padding: 40px;
+  margin: 40px;
+  margin-top: 20px;
+  margin-left: 100px;
+  font-family: sans-serif;
+  color: #dad571;
+  width: 1440px;
+  height: 1300px;
+  scroll-behavior: smooth;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: left;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 100;
+}
+
+video {
+  display: inline-block;
+  position: fixed;
+  right: 500px;
+  bottom: 110px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+  width: 1100px;
+  height: auto;
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 768px;) {
+  button {
+    font-size: 40px;
+    padding: 20px;
+    bottom: 20px; /* Adjust button's vertical position */
+    right: 30px; /* Adjust button's horizontal position */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  button {
+    font-size: 30px;
+    padding: 15px;
+    bottom: 10px; /* Further adjustments for very small screens */
+    right: 20px;
+  }
+}
+
+.link {
+  font-size: 60px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #dad571;
+  border: #4c9196 30px solid;
+  color: #d26684;
+  padding: 30px;
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Inline element */
+  border-radius: 70px; /* Make the button round */
+  width: 190px; /* Fixed width */
+  height: auto; /* Fixed height */
+  position: fixed;
+  bottom: 100px; /* Adjust to control vertical position */
+  right: 110px; /* Adjust to control horizontal position */
+  cursor: pointer;
+  z-index: 1000; /* Ensures it stays above other elements */
+  transition: transform 0.2s ease, background-color 0.2s ease; /* Smooth transition for hover */
+}
+
+.link:hover {
+  transform: scale(1.1); /* Button will grow 10% larger */
+}
